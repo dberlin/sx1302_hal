@@ -29,8 +29,8 @@ License: Revised BSD License, see LICENSE.TXT file include in the project
 #define LGW_I2C_SUCCESS     0
 #define LGW_I2C_ERROR       -1
 
-#define I2C_DEVICE          get_i2c_device_name()
-extern const char *get_i2c_device_name();
+#define I2C_DEVICE          GetI2CDeviceName()
+extern const char *GetI2CDeviceName();
 
 /* -------------------------------------------------------------------------- */
 /* --- PUBLIC FUNCTIONS PROTOTYPES ------------------------------------------ */
