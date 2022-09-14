@@ -1,0 +1,17 @@
+#ifndef _LORAGW_CONFIGURATION_H
+#define _LORAGW_CONFIGURATION_H
+#define LIBLORAGW_VERSION "2.1.0"
+#cmakedefine DEBUG_AUX	1
+#cmakedefine DEBUG_COM	1
+#cmakedefine DEBUG_MCU	1
+#cmakedefine DEBUG_I2C	1
+#cmakedefine DEBUG_REG	1
+#cmakedefine DEBUG_HAL	1
+#cmakedefine DEBUG_GPS	1
+#cmakedefine DEBUG_GPIO		1
+#cmakedefine DEBUG_LBT	1
+#cmakedefine DEBUG_RAD	1
+#cmakedefine DEBUG_CAL	1
+#cmakedefine DEBUG_SX1302 1
+#cmakedefine DEBUG_FTIME	 1
+#endif

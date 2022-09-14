@@ -1,0 +1,5 @@
+configure_file(libloragw/inc/config.h.in libloragw/inc/config.h)
+FILE(GLOB sx1302_hal_sources ${CMAKE_CURRENT_SOURCE_DIR}/libloragw/src/*.c ${CMAKE_CURRENT_SOURCE_DIR}/libtools/src/*.c)
+add_library(sx1302_hal STATIC ${sx1302_hal_sources})
+target_include_directories(sx1302_hal PUBLIC libloragw/inc PUBLIC libtools/inc)
+target_include_directories(sx1302_hal PUBLIC ${CMAKE_CURRENT_BINARY_DIR}/libloragw/inc)
